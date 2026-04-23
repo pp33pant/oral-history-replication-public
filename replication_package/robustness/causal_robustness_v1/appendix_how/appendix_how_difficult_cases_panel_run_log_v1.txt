@@ -1,0 +1,5 @@
+
+2026-04-22 00:43:47,539 INFO Panel: A=25  B=25  C=19  total=69
+2026-04-22 00:43:47,546 INFO Panel CSV \u2192 C:\Users\pangu\OneDrive\oral_history\data\processed\how_difficult_cases_panel_v1.csv
+2026-04-22 00:43:47,864 INFO Exported 69 review packages \u2192 C:\Users\pangu\OneDrive\oral_history\data\processed\how_difficult_cases_review_package_v1
+2026-04-22 00:43:47,864 INFO Done. 69 narrators selected for the appendix difficult-cases panel.

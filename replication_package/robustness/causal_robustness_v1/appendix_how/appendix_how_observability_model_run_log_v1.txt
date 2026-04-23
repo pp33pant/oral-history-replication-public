@@ -1,0 +1,22 @@
+
+2026-04-22 00:43:25,899 INFO Loaded archiveability profile: 642 rows
+2026-04-22 00:43:25,937 INFO R_how: observable=430  not-observable=212  rate=0.670
+C:\Users\pangu\OneDrive\oral_history\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.
+  warnings.warn(
+2026-04-22 00:43:27,590 INFO Observability model pseudo-R²: not computed (logistic)
+2026-04-22 00:43:27,591 INFO Predictor coefficients:
+2026-04-22 00:43:27,591 INFO   birth_year: -0.1511
+2026-04-22 00:43:27,591 INFO   age_at_first_exposure: 0.1561
+2026-04-22 00:43:27,591 INFO   total_days_incarcerated: 0.2339
+2026-04-22 00:43:27,591 INFO   interview_year: -0.3947
+2026-04-22 00:43:27,591 INFO   technical_gap_ratio: 0.0000
+2026-04-22 00:43:27,591 INFO   gender_male: 0.2782
+2026-04-22 00:43:27,591 INFO   generation_Kibei: 0.0211
+2026-04-22 00:43:27,591 INFO   generation_Nisei: -0.0844
+2026-04-22 00:43:27,591 INFO   generation_Sansei: -0.2082
+2026-04-22 00:43:27,591 INFO   adolescent_exposure_flag_1.0: -0.0008
+2026-04-22 00:43:27,591 INFO Intercept: 0.7987
+2026-04-22 00:43:27,594 INFO   ipo_weight: trimmed 22 weights at q95=2.175
+2026-04-22 00:43:27,596 INFO   ipo_weight_stabilized: trimmed 22 weights at q95=1.548
+2026-04-22 00:43:27,605 INFO Saved model output \u2192 C:\Users\pangu\OneDrive\oral_history\data\processed\how_observability_model_v1.csv
+2026-04-22 00:43:27,609 INFO Report \u2192 C:\Users\pangu\OneDrive\oral_history\robustness\how_observability_model_report_v1.md

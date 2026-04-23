@@ -1,0 +1,47 @@
+{
+  "crossfit_folds": 5,
+  "dependency_flags": {
+    "doubleml": true,
+    "lightgbm": true,
+    "sklearn": true,
+    "statsmodels": true
+  },
+  "engine_impl": "crossfit_plr_residual_ols_hc3_v1",
+  "nuisance_learner": "lightgbm_regressor",
+  "outcomes": [
+    "ilr_joint6_1",
+    "ilr_joint6_2",
+    "ilr_joint6_3",
+    "ilr_joint6_4",
+    "ilr_joint6_5",
+    "ilr_what3_1",
+    "ilr_what3_2"
+  ],
+  "output_files": {
+    "design": "robustness/causal_robustness_v2/r14/perm_12/track1_ilr/track1_ilr_design_v1.csv",
+    "diagnostics": "robustness/causal_robustness_v2/r14/perm_12/track1_ilr/track1_ilr_diagnostics_v1.csv",
+    "estimates": "robustness/causal_robustness_v2/r14/perm_12/track1_ilr/track1_ilr_estimates_v1.csv",
+    "report": "robustness/causal_robustness_v2/r14/perm_12/track1_ilr/track1_ilr_report_v1.md",
+    "task_grid": "robustness/causal_robustness_v2/r14/perm_12/track1_ilr/track1_ilr_task_grid_v1.csv"
+  },
+  "package_versions": {
+    "doubleml": "0.11.2",
+    "lightgbm": "4.6.0",
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.8.0",
+    "statsmodels": "0.14.6"
+  },
+  "protection_manifest": "data/processed/protected_causal_inputs_v1/what_how_text_phase1_canonical_realignment_2026-04-17/protection_manifest_v1.json",
+  "random_state": 1729,
+  "rows": 633,
+  "sample": "main",
+  "script_name": "dml_robustness_battery.py",
+  "timestamp_utc": "2026-04-20T20:48:39Z",
+  "track": "track1_ilr",
+  "weight_status_row_counts": {
+    "ipw": 632,
+    "rake": 632,
+    "unweighted": 633
+  }
+}

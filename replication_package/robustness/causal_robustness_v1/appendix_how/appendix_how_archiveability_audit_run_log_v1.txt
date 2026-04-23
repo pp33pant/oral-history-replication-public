@@ -1,0 +1,20 @@
+
+2026-04-22 00:43:23,988 INFO Loaded person_table: 1011 rows
+2026-04-22 00:43:24,403 INFO Loaded segment_table: 21516 rows
+2026-04-22 00:43:24,573 INFO Loaded segment_clean_table: 22233 rows
+2026-04-22 00:43:24,585 INFO Loaded narrator model matrix: 642 rows
+2026-04-22 00:43:24,585 INFO Restricted to treatment_observed: 642 narrators
+2026-04-22 00:43:24,750 INFO Archiveability profile: 642 narrators
+2026-04-22 00:43:24,757 INFO Tier distribution: A=578  B=0  C=64
+C:\Users\pangu\OneDrive\oral_history\scripts\archived_how_v1\audit_how_dimension_archiveability_v1.py:214: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r, p = stats.pearsonr(sub[t_col], sub[p_col])
+2026-04-22 00:43:24,780 INFO Saved archiveability profile \u2192 C:\Users\pangu\OneDrive\oral_history\data\processed\how_selection_audit_v1.csv
+2026-04-22 00:43:24,783 INFO Saved treatment-archiveability associations \u2192 C:\Users\pangu\OneDrive\oral_history\robustness\how_archiveability_treatment_assoc_v1.csv
+2026-04-22 00:43:24,784 INFO === Archiveability Audit Summary ===
+2026-04-22 00:43:24,784 INFO   Narrators profiled: 642
+2026-04-22 00:43:24,784 INFO   Median transcript words: 193.0
+2026-04-22 00:43:24,785 INFO   Median segments: 22.0
+2026-04-22 00:43:24,785 WARNING   Significant treatment–archiveability associations (p<0.05):
+2026-04-22 00:43:24,786 WARNING     total_days_incarcerated \u2192 transcript_word_count : r=0.096  p=0.0154
+2026-04-22 00:43:24,786 WARNING     age_at_first_exposure \u2192 n_segments_total : r=0.127  p=0.0013
+2026-04-22 00:43:24,786 WARNING     age_at_first_exposure \u2192 transcript_word_count : r=0.127  p=0.0013

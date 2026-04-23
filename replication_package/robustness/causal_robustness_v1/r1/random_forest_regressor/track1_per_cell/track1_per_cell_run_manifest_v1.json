@@ -1,0 +1,59 @@
+{
+  "crossfit_folds": 5,
+  "dependency_flags": {
+    "doubleml": true,
+    "lightgbm": true,
+    "sklearn": true,
+    "statsmodels": true
+  },
+  "engine_impl": "crossfit_plr_residual_ols_hc3_v1",
+  "nuisance_learner": "random_forest_regressor",
+  "outcomes": [
+    "share_joint_Injury_composed",
+    "share_joint_Injury_discomposed",
+    "share_joint_Rupture_composed",
+    "share_joint_Rupture_discomposed",
+    "share_joint_Distrust_composed",
+    "share_joint_Distrust_discomposed",
+    "share_class_Injury",
+    "share_class_Rupture",
+    "share_class_Distrust",
+    "share_region_injury",
+    "share_region_injury_disrupted",
+    "share_region_adaptive_rupture",
+    "share_region_default_rupture",
+    "share_region_politicizing_rupture",
+    "share_region_distrust",
+    "share_composed",
+    "share_discomposed",
+    "share_composed_text",
+    "share_discomposed_text"
+  ],
+  "output_files": {
+    "design": "robustness/causal_robustness_v1/r1/random_forest_regressor/track1_per_cell/track1_per_cell_design_v1.csv",
+    "diagnostics": "robustness/causal_robustness_v1/r1/random_forest_regressor/track1_per_cell/track1_per_cell_diagnostics_v1.csv",
+    "estimates": "robustness/causal_robustness_v1/r1/random_forest_regressor/track1_per_cell/track1_per_cell_estimates_v1.csv",
+    "report": "robustness/causal_robustness_v1/r1/random_forest_regressor/track1_per_cell/track1_per_cell_report_v1.md",
+    "task_grid": "robustness/causal_robustness_v1/r1/random_forest_regressor/track1_per_cell/track1_per_cell_task_grid_v1.csv"
+  },
+  "package_versions": {
+    "doubleml": "0.11.2",
+    "lightgbm": "4.6.0",
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.8.0",
+    "statsmodels": "0.14.6"
+  },
+  "protection_manifest": "data/processed/protected_causal_inputs_v1/what_how_text_phase1_canonical_realignment_2026-04-17/protection_manifest_v1.json",
+  "random_state": 1729,
+  "rows": 633,
+  "sample": "main",
+  "script_name": "dml_robustness_battery.py",
+  "timestamp_utc": "2026-04-20T18:49:21Z",
+  "track": "track1_per_cell",
+  "weight_status_row_counts": {
+    "ipw": 632,
+    "rake": 632,
+    "unweighted": 633
+  }
+}

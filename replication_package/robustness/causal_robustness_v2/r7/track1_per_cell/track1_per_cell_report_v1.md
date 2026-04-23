@@ -1,0 +1,22 @@
+# R7 alternative aggregation: track1_per_cell
+
+- sample: main
+- rows: 31
+- outcomes: 4
+- task rows: 12
+- estimated tasks: 12
+- failed tasks: 0
+- coefficient rows: 36
+- nuisance learner: lightgbm_regressor
+- estimation engine: crossfit_plr_residual_ols_hc3_v1
+- cross-fit folds: 5
+- design file: `robustness/causal_robustness_v2/r7/track1_per_cell/track1_per_cell_design_v1.csv`
+- task grid: `robustness/causal_robustness_v2/r7/track1_per_cell/track1_per_cell_task_grid_v1.csv`
+- estimates file: `robustness/causal_robustness_v2/r7/track1_per_cell/track1_per_cell_estimates_v1.csv`
+- diagnostics file: `robustness/causal_robustness_v2/r7/track1_per_cell/track1_per_cell_diagnostics_v1.csv`
+- run manifest: `robustness/causal_robustness_v2/r7/track1_per_cell/track1_per_cell_run_manifest_v1.json`
+- doubleml available: True
+- sklearn available: True
+- lightgbm available: True
+- statsmodels available: True
+- status: estimation completed.

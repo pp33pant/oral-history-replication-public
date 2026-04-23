@@ -1,0 +1,16 @@
+treatment_var,archiveability_proxy,pearson_r,p_value,n
+adolescent_exposure_flag,n_segments_total,0.0217,0.58388,637
+adolescent_exposure_flag,transcript_word_count,0.0363,0.360645,637
+adolescent_exposure_flag,n_candidate_segments,,,637
+adolescent_exposure_flag,technical_gap_ratio,,,637
+adolescent_exposure_flag,reflection_sparsity,,,637
+total_days_incarcerated,n_segments_total,0.03,0.448356,642
+total_days_incarcerated,transcript_word_count,0.0956,0.015387,642
+total_days_incarcerated,n_candidate_segments,,,642
+total_days_incarcerated,technical_gap_ratio,,,642
+total_days_incarcerated,reflection_sparsity,,,642
+age_at_first_exposure,n_segments_total,0.1273,0.001282,637
+age_at_first_exposure,transcript_word_count,0.127,0.001316,637
+age_at_first_exposure,n_candidate_segments,,,637
+age_at_first_exposure,technical_gap_ratio,,,637
+age_at_first_exposure,reflection_sparsity,,,637

@@ -1,0 +1,22 @@
+# Track 1 Per-Cell Severity Components Report v1
+
+- sample: main
+- rows: 633
+- outcomes: 19
+- task rows: 57
+- estimated tasks: 57
+- failed tasks: 0
+- coefficient rows: 342
+- nuisance learner: lightgbm_regressor
+- estimation engine: crossfit_plr_residual_ols_hc3_v1
+- cross-fit folds: 5
+- design file: `models/causal_estimates_v1/track1_per_cell_severity_components_v1/track1_per_cell_severity_components_design_v1.csv`
+- task grid: `models/causal_estimates_v1/track1_per_cell_severity_components_v1/track1_per_cell_severity_components_task_grid_v1.csv`
+- estimates file: `models/causal_estimates_v1/track1_per_cell_severity_components_v1/track1_per_cell_severity_components_estimates_v1.csv`
+- diagnostics file: `models/causal_estimates_v1/track1_per_cell_severity_components_v1/track1_per_cell_severity_components_diagnostics_v1.csv`
+- run manifest: `models/causal_estimates_v1/track1_per_cell_severity_components_v1/track1_per_cell_severity_components_run_manifest_v1.json`
+- doubleml available: True
+- sklearn available: True
+- lightgbm available: True
+- statsmodels available: True
+- status: estimation completed.

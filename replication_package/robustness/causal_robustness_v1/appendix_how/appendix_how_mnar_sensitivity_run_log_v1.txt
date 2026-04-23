@@ -1,0 +1,12 @@
+
+2026-04-22 00:43:28,615 INFO Loaded observability model data: 642 rows
+2026-04-22 00:43:28,656 INFO Delta sensitivity:
+ delta_sd                how_column  imputed_how_unobs  n_observed  n_imputed   ate_how
+      0.0 how_multimodal_score_mean             0.4765         430        212 -0.020087
+      0.2 how_multimodal_score_mean             0.5023         430        212 -0.020109
+      0.5 how_multimodal_score_mean             0.5411         430        212 -0.020141
+      0.8 how_multimodal_score_mean             0.5799         430        212 -0.020174
+      1.0 how_multimodal_score_mean             0.6057         430        212 -0.020195
+      1.5 how_multimodal_score_mean             0.6704         430        212 -0.020250
+2026-04-22 00:43:28,656 INFO Lee bounds: lb=-0.0300  ub=-0.0300  trim=0.001
+2026-04-22 00:43:28,676 INFO Report \u2192 C:\Users\pangu\OneDrive\oral_history\robustness\how_mnar_sensitivity_report_v1.md

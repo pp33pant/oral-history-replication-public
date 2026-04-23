@@ -1,0 +1,7 @@
+
+2026-04-20 20:18:44,935 INFO Loaded person_table: 1011 rows
+2026-04-20 20:18:46,693 INFO Loaded segment_table: 21516 rows
+2026-04-20 20:18:47,159 INFO Loaded segment_clean_table: 22233 rows
+2026-04-20 20:18:47,160 WARNING Could not load segment_scores_table: Execution failed on sql 'SELECT * FROM segment_scores_table': no such table: segment_scores_table
+2026-04-20 20:18:49,344 INFO Saved results \u2192 C:\Users\pangu\OneDrive\oral_history\scripts\robustness\how_negative_controls_v1.csv
+2026-04-20 20:18:49,352 INFO Report \u2192 C:\Users\pangu\OneDrive\oral_history\scripts\robustness\how_negative_controls_report_v1.md

@@ -1,0 +1,9 @@
+
+2026-04-22 00:43:31,002 INFO Loaded person_table: 1011 rows
+2026-04-22 00:43:31,281 INFO Loaded segment_table: 21516 rows
+2026-04-22 00:43:31,370 INFO Loaded segment_clean_table: 22233 rows
+2026-04-22 00:43:31,372 WARNING Could not load segment_scores_table: Execution failed on sql 'SELECT * FROM segment_scores_table': no such table: segment_scores_table
+2026-04-22 00:43:31,374 INFO Loaded narrator model matrix: 642 rows
+2026-04-22 00:43:32,570 INFO Loaded current segment outcome file: 14390 rows
+2026-04-22 00:43:45,059 INFO Saved results \u2192 C:\Users\pangu\OneDrive\oral_history\robustness\how_negative_controls_v1.csv
+2026-04-22 00:43:45,066 INFO Report \u2192 C:\Users\pangu\OneDrive\oral_history\robustness\how_negative_controls_report_v1.md

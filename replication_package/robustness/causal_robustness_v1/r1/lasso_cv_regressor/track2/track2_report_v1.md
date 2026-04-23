@@ -1,0 +1,22 @@
+# R1 learner sensitivity (lasso_cv_regressor): track2
+
+- sample: main
+- rows: 633
+- outcomes: 3
+- task rows: 9
+- estimated tasks: 9
+- failed tasks: 0
+- coefficient rows: 27
+- nuisance learner: lasso_cv_regressor
+- estimation engine: crossfit_plr_residual_ols_hc3_v1
+- cross-fit folds: 5
+- design file: `robustness/causal_robustness_v1/r1/lasso_cv_regressor/track2/track2_design_v1.csv`
+- task grid: `robustness/causal_robustness_v1/r1/lasso_cv_regressor/track2/track2_task_grid_v1.csv`
+- estimates file: `robustness/causal_robustness_v1/r1/lasso_cv_regressor/track2/track2_estimates_v1.csv`
+- diagnostics file: `robustness/causal_robustness_v1/r1/lasso_cv_regressor/track2/track2_diagnostics_v1.csv`
+- run manifest: `robustness/causal_robustness_v1/r1/lasso_cv_regressor/track2/track2_run_manifest_v1.json`
+- doubleml available: True
+- sklearn available: True
+- lightgbm available: True
+- statsmodels available: True
+- status: estimation completed.

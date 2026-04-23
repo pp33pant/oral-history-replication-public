@@ -1,0 +1,10 @@
+outcome,present,nonmissing_n,unique_n,status,track
+share_joint_Injury_composed,1,31,14,supported,track1_per_cell
+share_joint_Injury_discomposed,1,31,1,constant,track1_per_cell
+share_joint_Rupture_composed,1,31,23,supported,track1_per_cell
+share_joint_Rupture_discomposed,1,31,20,supported,track1_per_cell
+share_joint_Distrust_composed,1,31,10,supported,track1_per_cell
+share_joint_Distrust_discomposed,1,31,1,constant,track1_per_cell
+authority_stance,1,31,29,supported,track2
+belonging_stance,1,31,30,supported,track2
+how_multimodal_score_mean,1,31,31,supported,track2

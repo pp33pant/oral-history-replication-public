@@ -1,0 +1,10 @@
+x1_high,x2_cut,N,n_Injury,pct_Injury,delta_pp_Injury,n_Rupture,pct_Rupture,delta_pp_Rupture,n_Distrust,pct_Distrust,delta_pp_Distrust,max_abs_delta_pp,is_production,source_path
+0.53,0.41,642,236,36.8,0.0,276,43.0,-7.0,130,20.2,7.0,7.0,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.53,0.43,642,236,36.8,0.0,276,43.0,-7.0,130,20.2,7.0,7.0,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.53,0.45,642,236,36.8,0.0,276,43.0,-7.0,130,20.2,7.0,7.0,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.54,0.41,642,236,36.8,0.0,321,50.0,0.0,85,13.2,0.0,0.0,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.54,0.43,642,236,36.8,0.0,321,50.0,0.0,85,13.2,0.0,0.0,True,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.54,0.45,642,236,36.8,0.0,321,50.0,0.0,85,13.2,0.0,0.0,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.55,0.41,642,236,36.8,0.0,336,52.3,2.3,70,10.9,-2.3,2.3,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.55,0.43,642,236,36.8,0.0,336,52.3,2.3,70,10.9,-2.3,2.3,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv
+0.55,0.45,642,236,36.8,0.0,336,52.3,2.3,70,10.9,-2.3,2.3,False,data/processed/video_first_post_vm_batch1_v2/boundary_sensitivity_grid_v2.csv

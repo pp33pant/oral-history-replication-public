@@ -1,0 +1,8 @@
+coef,se,t,p,n,test,predictor,outcome
+-0.02833,0.011616,-2.4389,0.015006,637,treatment_to_noise,adolescent_exposure_flag,gap_rate
+-408.287175,338.610723,-1.2058,0.228355,637,treatment_to_noise,adolescent_exposure_flag,mean_seg_wordcount
+-1e-05,9e-06,-1.0922,0.275162,642,treatment_to_noise,total_days_incarcerated,gap_rate
+-0.757543,0.260287,-2.9104,0.003735,642,treatment_to_noise,total_days_incarcerated,mean_seg_wordcount
+-0.008144,,-2.4398,0.014723,11791,nontrauma_discomposure,segment_type (trauma vs casual),how_multimodal_score
+-0.012459,0.011675,-1.0671,0.286337,637,fe_absorption_base,adolescent_exposure_flag,how_multimodal_score (no FE)
+-0.018341,0.006018,-3.0479,0.0024,637,fe_absorption_interview_id,adolescent_exposure_flag (residualized on interview_id),how_multimodal_score (residualized on interview_id)

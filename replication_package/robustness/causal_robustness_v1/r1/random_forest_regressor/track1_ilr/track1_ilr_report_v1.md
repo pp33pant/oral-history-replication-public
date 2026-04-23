@@ -1,0 +1,22 @@
+# R1 learner sensitivity (random_forest_regressor): track1_ilr
+
+- sample: main
+- rows: 633
+- outcomes: 7
+- task rows: 21
+- estimated tasks: 21
+- failed tasks: 0
+- coefficient rows: 63
+- nuisance learner: random_forest_regressor
+- estimation engine: crossfit_plr_residual_ols_hc3_v1
+- cross-fit folds: 5
+- design file: `robustness/causal_robustness_v1/r1/random_forest_regressor/track1_ilr/track1_ilr_design_v1.csv`
+- task grid: `robustness/causal_robustness_v1/r1/random_forest_regressor/track1_ilr/track1_ilr_task_grid_v1.csv`
+- estimates file: `robustness/causal_robustness_v1/r1/random_forest_regressor/track1_ilr/track1_ilr_estimates_v1.csv`
+- diagnostics file: `robustness/causal_robustness_v1/r1/random_forest_regressor/track1_ilr/track1_ilr_diagnostics_v1.csv`
+- run manifest: `robustness/causal_robustness_v1/r1/random_forest_regressor/track1_ilr/track1_ilr_run_manifest_v1.json`
+- doubleml available: True
+- sklearn available: True
+- lightgbm available: True
+- statsmodels available: True
+- status: estimation completed.
