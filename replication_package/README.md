@@ -2,6 +2,15 @@
 
 This directory is the frozen replication interface for the manuscript. It packages the shareable processed inputs, codebook materials, model outputs, robustness summaries, and wrapper scripts needed to reproduce the paper-facing tables from the released research frame.
 
+## Archive And Citation
+
+- Public repository: https://github.com/pp33pant/oral-history-replication-public
+- Zenodo record: https://zenodo.org/records/19716590
+- Version DOI for this frozen public release (`v1.0.0`): https://doi.org/10.5281/zenodo.19716590
+- Concept DOI for the release series: https://doi.org/10.5281/zenodo.19716589
+
+Use the version DOI when citing the exact archived public release. Use the concept DOI when citing the evolving public release series.
+
 ## Contents
 
 - `codebook/`: schema, measurement, and coding references.

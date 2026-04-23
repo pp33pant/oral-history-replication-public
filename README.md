@@ -1,5 +1,7 @@
 # Oral History State Violence Public Release
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19716590.svg)](https://doi.org/10.5281/zenodo.19716590)
+
 This public repository contains the shareable manuscript outputs and frozen replication archive for the study:
 
 > **How Does State Violence Experienced During Adolescence Shape State-Person Narratives?**  
@@ -11,6 +13,21 @@ This public repository contains the shareable manuscript outputs and frozen repl
 - `paper/appendix_tex.pdf`: standalone appendix.
 - `replication_package/`: frozen replication interface with shareable processed inputs, model outputs, weighting tables, robustness summaries, appendix audit notes, and rerun scripts.
 - `LICENSE`: repository license.
+
+## Citation And DOI
+
+- Zenodo record: https://zenodo.org/records/19716590
+- Version DOI for the current frozen archive (`v1.0.0`): https://doi.org/10.5281/zenodo.19716590
+- Concept DOI for the release series: https://doi.org/10.5281/zenodo.19716589
+- GitHub release: https://github.com/pp33pant/oral-history-replication-public/releases/tag/v1.0.0
+
+Use the version DOI when you want to cite the exact archived release used in replication. Use the concept DOI when you want a stable pointer that always resolves to the latest public release.
+
+Recommended citation:
+
+```text
+Guanghui/Panda. (2026). pp33pant/oral-history-replication-public: v1.0.0 Initial public release (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19716590
+```
 
 ## Data Sharing Boundary
 
@@ -42,6 +59,7 @@ python scripts/05_replication_checks.py
 - The public repo is a release surface, not the full development workspace.
 - The replication package is the canonical audit trail for released processed results.
 - The paper and appendix PDFs are included for direct reading without entering the rerun workflow.
+- The DOI-bearing archival snapshot is the Zenodo-backed GitHub release rather than the mutable default branch state.
 
 ## Contact
 
