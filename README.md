@@ -55,12 +55,13 @@ The human researcher remained responsible for:
 
 ## Citation And DOI
 
-- Zenodo concept DOI for the public release series: https://doi.org/10.5281/zenodo.19716589
-- Latest GitHub release: https://github.com/pp33pant/oral-history-replication-public/releases/latest
-- Full release history: https://github.com/pp33pant/oral-history-replication-public/releases
-- For an exact frozen version, use the version-specific DOI shown on the matching Zenodo version page for the tagged release you use.
+- Zenodo concept DOI for the public release series: [10.5281/zenodo.19716589](https://doi.org/10.5281/zenodo.19716589)
+- Current version DOI for `v1.0.2`: [10.5281/zenodo.19730775](https://doi.org/10.5281/zenodo.19730775)
+- Latest GitHub release: [github.com/pp33pant/oral-history-replication-public/releases/latest](https://github.com/pp33pant/oral-history-replication-public/releases/latest)
+- Full release history: [github.com/pp33pant/oral-history-replication-public/releases](https://github.com/pp33pant/oral-history-replication-public/releases)
+- For an exact frozen version, use the matching version DOI from the Zenodo page for the tagged release you cite.
 
-Use the concept DOI when you want a stable pointer that resolves to the latest public release. Use the version-specific DOI attached to the matching Zenodo record when you need to cite one exact archived release.
+Use the concept DOI when you want a stable pointer that resolves to the latest public release. Use the version-specific DOI when you need to cite one exact archived release.
 
 Stable release-series citation:
 
