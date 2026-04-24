@@ -5,11 +5,11 @@ This directory is the frozen replication interface for the manuscript. It packag
 ## Archive And Citation
 
 - Public repository: https://github.com/pp33pant/oral-history-replication-public
-- Zenodo record: https://zenodo.org/records/19716590
-- Version DOI for this frozen public release (`v1.0.0`): https://doi.org/10.5281/zenodo.19716590
-- Concept DOI for the release series: https://doi.org/10.5281/zenodo.19716589
+- Zenodo concept DOI for the public release series: https://doi.org/10.5281/zenodo.19716589
+- Latest GitHub release: https://github.com/pp33pant/oral-history-replication-public/releases/latest
+- Full release history: https://github.com/pp33pant/oral-history-replication-public/releases
 
-Use the version DOI when citing the exact archived public release. Use the concept DOI when citing the evolving public release series.
+Use the concept DOI when citing the evolving public release series. For an exact frozen version, use the version-specific DOI shown on the matching Zenodo version page for the tagged release you use.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # Oral History State Violence Public Release
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19716590.svg)](https://doi.org/10.5281/zenodo.19716590)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19716589.svg)](https://doi.org/10.5281/zenodo.19716589)
 
 This public repository contains the shareable manuscript outputs and frozen replication archive for the study:
 
@@ -16,17 +16,17 @@ This public repository contains the shareable manuscript outputs and frozen repl
 
 ## Citation And DOI
 
-- Zenodo record: https://zenodo.org/records/19716590
-- Version DOI for the current frozen archive (`v1.0.0`): https://doi.org/10.5281/zenodo.19716590
-- Concept DOI for the release series: https://doi.org/10.5281/zenodo.19716589
-- GitHub release: https://github.com/pp33pant/oral-history-replication-public/releases/tag/v1.0.0
+- Zenodo concept DOI for the public release series: https://doi.org/10.5281/zenodo.19716589
+- Latest GitHub release: https://github.com/pp33pant/oral-history-replication-public/releases/latest
+- Full release history: https://github.com/pp33pant/oral-history-replication-public/releases
+- For an exact frozen version, use the version-specific DOI shown on the matching Zenodo version page for the tagged release you use.
 
-Use the version DOI when you want to cite the exact archived release used in replication. Use the concept DOI when you want a stable pointer that always resolves to the latest public release.
+Use the concept DOI when you want a stable pointer that always resolves to the latest public release. Use the version-specific DOI attached to the tagged Zenodo record when you need to cite one exact archived release.
 
-Recommended citation:
+Stable release-series citation:
 
 ```text
-Guanghui/Panda. (2026). pp33pant/oral-history-replication-public: v1.0.0 Initial public release (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19716590
+Guanghui/Panda. (2026). pp33pant/oral-history-replication-public. Zenodo. https://doi.org/10.5281/zenodo.19716589
 ```
 
 ## Data Sharing Boundary
